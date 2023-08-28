@@ -1,0 +1,115 @@
+.kasa-description {
+    color:#FF6060;
+    display: flex;
+    flex-direction: column;
+    margin: 100px 100px;
+}
+
+.kasa-description h2{
+    font-size: 36px;
+}
+
+.kasa-description h3{
+    font-size: 18px
+}
+
+.kasa-description-tags {
+
+    color: white;
+    background-color: #FF6060;
+    padding: 10px 50px;
+    margin-right: 20px;
+    border-radius: 20px ;
+
+}
+
+.kasa-description-host img{
+    border-radius: 70px;
+    object-fit: cover;
+    
+}
+
+.kasa-description-collapse{
+    color: white;
+    background-color: #FF6060;
+    padding: 10px;
+    border-radius: 10px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 25px 5px 25px;
+}
+
+.kasa-description-collapse img {
+    transition:0.5s ease-in-out;
+}
+
+.kasa-description-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.kasa-description-location {
+    display: flex;
+    flex-direction: column;
+}
+
+.kasa-description-host {
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    font-weight: 500;
+    align-items: center;
+}
+
+.kasa-description-rate {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.kasa-description-rate ul{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+.kasa-description-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+}
+
+.kasa-description-details p{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.kasa-description-details li{
+    width: 40%;
+}
+
+.kasa-description-equipement {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.buttonArrow {
+    transform: rotate(-180deg);
+}
+
+.kasa-description-content{
+    color: #FF6060;
+    background-color: #F6F6F6;
+    padding:30px;
+    font-size: 20px;
+}
+
+.kasa-description-content ul{
+    padding: 0;
+}
+

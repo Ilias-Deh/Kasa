@@ -1,0 +1,10 @@
+.kasa-banner-about {
+    margin: 100px 100px;
+}
+
+.kasa-banner-about img{  
+    width: 100%;
+    height: 224px;
+    object-fit: cover;
+    border-radius: 50px;
+}
