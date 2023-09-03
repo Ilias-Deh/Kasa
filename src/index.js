@@ -14,6 +14,10 @@ const GlobalStyle = createGlobalStyle`
         font-family: 'Montserrat', sans-serif;    
     }
 
+    body {
+        margin :0px;
+    }
+
 `
 ReactDOM.render(
   <React.StrictMode>

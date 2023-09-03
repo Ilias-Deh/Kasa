@@ -1,6 +1,7 @@
-import '../../styles/Gallery.css'
+import '../../styles/Gallery.scss'
 import logements from "../../datas/logements.json"
 import { Link } from 'react-router-dom'
+
 
  function Gallery() {
     return (

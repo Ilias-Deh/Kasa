@@ -1,0 +1,59 @@
+.kasa-carrousel {
+    margin: 100px 100px;
+    position: relative;
+    p{
+        position: absolute;
+        bottom: 3%;
+        left: 50%;
+        color: white;
+        font-weight: 500;
+    }
+  }
+  
+.kasa-background {
+    width: 100%;
+    border-radius: 25px;
+    height: 415px;
+    object-fit: cover;
+}
+  
+.kasa-arrow-back {
+    position: absolute;
+    top: 40%;
+    left: 1%;
+}
+  
+.kasa-arrow-forward {
+    position: absolute;
+    top: 40%;
+    right: 1%;
+}
+
+@media (max-width: 768px) {
+
+    .kasa-carrousel {
+        margin: 20px 20px;
+        p{
+            opacity: 0;
+        }
+      }
+
+    .kasa-background {
+        width: 100%;
+        border-radius: 25px;
+        height: 256px;
+        object-fit: cover;
+    }
+
+    .kasa-arrow-back {
+        top: 45%;
+        height: 24px;
+        width: 24px;
+    }
+      
+    .kasa-arrow-forward {
+        top: 45%;
+        height: 24px;
+        width: 24px;
+    }
+}

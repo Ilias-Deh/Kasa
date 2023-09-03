@@ -1,4 +1,4 @@
-import '../../styles/Carrousel.css'
+import '../../styles/Carrousel.scss'
 import logements from "../../datas/logements.json"
 import arrow_forward from '../../assets/arrow_forward.png'
 import arrow_back from '../../assets/arrow_back.png'
@@ -16,6 +16,7 @@ function Carrousel() {
         <img className='kasa-background' src={filteredlogement.pictures[slide]} alt="logement"></img>
         <img className='kasa-arrow-back' src={arrow_back} onClick={() => setSlide(slide < 1 ? filteredlogement.pictures.length-1 : slide - 1 )} alt="fleche gauche"></img>
         <img className='kasa-arrow-forward' src={arrow_forward} onClick={() => setSlide(slide > filteredlogement.pictures.length-2 ? 0 : slide + 1)} alt="fleche droite"></img>
+        <p>{slide+1}/{filteredlogement.pictures.length}</p>
       </div>
       ))}
     </div>

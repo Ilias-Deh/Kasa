@@ -1,0 +1,223 @@
+.kasa-description {
+  color: #FF6060;
+
+  margin: 100px 100px;
+
+}
+
+.kasa-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.kasa-description-tags {
+  color: white;
+  background-color: #FF6060;
+  padding: 10px 50px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.kasa-description-host img {
+  border-radius: 70px;
+  object-fit: cover;
+}
+
+.kasa-description-collapse {
+  color: white;
+  background-color: #FF6060;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px 25px 5px 25px;
+
+  img {
+    transition: 0.5s ease-in-out;
+  }
+}
+
+.kasa-name{
+display: flex;
+flex-direction: column;
+
+ul {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 18px;
+}
+}
+
+.kasa-description-location {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.kasa-description-owner {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
+.kasa-description-host {
+  display: flex;
+  flex-direction: row;
+  font-size: 18px;
+  font-weight: 500;
+  align-items: center;
+  p{
+    margin-right:10px;
+    width: 70px;
+  }
+}
+
+.kasa-description-rate {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+  }
+}
+
+.kasa-description-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+  p {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  li {
+    width: 45%;
+    margin-bottom: 20px ;
+  }
+}
+
+
+.kasa-description-equipement {
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+.buttonArrow {
+  transform: rotate(-180deg);
+}
+
+.kasa-description-content {
+  color: #FF6060;
+  background-color: #F6F6F6;
+  padding: 30px;
+  font-size: 20px;
+
+  ul {
+    padding: 0;
+  }
+}
+
+@media (max-width: 1046px) {
+.kasa-name {
+h2 {
+  font-size: 30px;
+  margin:5px 0px;
+}
+
+h3 {
+  font-size: 16px;
+  margin: 5px 0px;
+}
+ul {
+  margin: 5px 0px;
+}
+}
+
+.kasa-description-tags {
+padding: 10px 30px;
+}
+
+.kasa-description-host img{
+height: 90px;
+}
+
+.kasa-description-details {
+li{
+  margin-bottom: 20px ;
+}
+}
+}
+
+@media (max-width: 768px) {
+.kasa-description {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 20px;
+}
+
+.kasa-name {
+h2 {
+  font-size: 22px;
+  margin:5px 0px;
+}
+
+h3 {
+  font-size: 18px;
+  margin: 5px 0px;
+}
+ul {
+  margin: 5px 0px;
+}
+}
+
+.kasa-description-tags {
+padding: 5px 20px;
+margin-right: 20px;
+border-radius: 10px;
+font-size: 10px;
+}
+
+.kasa-flex{
+flex-direction: column;
+}
+
+.kasa-description-owner{
+flex-direction: row-reverse;
+justify-content: space-between;
+align-items: center;
+}
+
+.kasa-description-rate img{
+height: 18px;
+}
+
+.kasa-description-host img{
+height: 46px;
+}
+
+.kasa-description-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+li{
+  width: 100%;
+  margin-bottom: 5px ;
+}
+}
+}
